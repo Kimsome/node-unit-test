@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kimsome/node-unit-test/issues"
   },
-  "homepage": "https://github.com/Kimsome/node-unit-test#readme"
+  "homepage": "https://github.com/Kimsome/node-unit-test#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
 }
