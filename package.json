@@ -1,22 +1,25 @@
 {
-  "name": "node-unit-test",
-  "version": "0.0.1",
-  "description": "Node unit test",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kimsome/node-unit-test.git"
-  },
-  "author": "Kimsome",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Kimsome/node-unit-test/issues"
-  },
-  "homepage": "https://github.com/Kimsome/node-unit-test#readme",
-  "devDependencies": {
-    "chai": "^4.2.0"
-  }
+    "name": "node-unit-test",
+    "version": "0.0.1",
+    "description": "Node unit test",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/mocha.js",
+        "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha ./test/mocha.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kimsome/node-unit-test.git"
+    },
+    "author": "Kimsome",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kimsome/node-unit-test/issues"
+    },
+    "homepage": "https://github.com/Kimsome/node-unit-test#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^7.1.1"
+    }
 }
